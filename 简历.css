@@ -1,0 +1,97 @@
+body{ margin: 0px;background-color: #efefef; color: black}
+clearfix::after{content:"" ;display: block;clear: both; }
+a{color: inherit; text-decoration: none;}
+*{padding: 0px;margin: 0px;}
+hr{height: 0;border: none;border-top: 1px solid #dedede;}
+.topnavbar{position: fixed;top: 0px;left: 0px;width: 100%;padding-top: 20px;padding-bottom: 20px;padding-left: 0px;
+          padding-right: 0px;border-left: 14px; border-right: 14px;transition: all 0.5s;}
+.topnavbar.sticky{background: white;padding: 10px  0; z-index: 1;
+                  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+                  color: #3d4451;}
+.topnavbar>nav>ul{list-style: none;margin: 0;padding: 0;float: right;}
+.topnavbar>nav>ul>li{float: left;margin-left: 17px;margin-right: 17px;float: right;position: relative;}
+.topnavbar>nav>ul>li>a{font-size: 13px;color: inherit;text-decoration: none;font-weight: bold;border-top: 3px solid transparent;
+                      border-bottom: 3px solid transparent;padding-top: 5px ;padding-bottom: 5px;display: block;position: relative;} 
+.topnavbar>nav>ul>li>a:hover::after{ content:'';position: absolute; display:block;height:3px;background:#e06576; width:100%;top:100%;left:0;animation: menuslide 1s;}
+@keyframes menuslide{0%{width:0;}100%{width: 100%;}}
+.topnavbar .submenu{
+    display: none; position: absolute;
+    left: 0;
+    top: 100%;
+    background: white;
+    color: #3d4451;
+}
+.topnavbar .submenu.active{
+    display: block;
+    list-style: none;
+}
+.topnavbar .submenu > li{
+    white-space: nowrap;
+    padding: 5px 10px;
+}
+.topnavbar .logo{font-size: 24px;font-family:"Arial Black"}
+.topnavbar .logo .rs{margin-right: 4px;color: #e47275 ;}
+.topnavbar .logo .card{color: #A8AAAC;}
+.banner{height: 515px;background-size: cover;background-position: center center;background-image: url(../img/wallhaven-v9v3r5.jpg)}
+.banner .mask{height: 515px;  background-color: rgba(0, 0, 0, 0.6);   }
+.usercard{border: 1px solid red;max-width: 960px;margin-left: auto;margin-right: auto;background-color: #ffffff;} 
+.usercard .welcome{background:#e6686a;color: white;padding: 4px 16px;line-height: 22px;position: relative;margin-bottom: 10px;}
+.usercard .welcome .triangle{border:5px solid transparent ;width:0px;border-top-color:#e6686a;border-left-color:#e6686a;border-right-color:transparent;
+                            border-bottom-color:transparent; position: absolute; left: 4px; top: 100%;}
+.usercard .picture{float: left;}
+.usercard .text{float: left;margin-left: 65px;width: 470px;}
+.usercard .pictureAndtext{height: 515px;padding: 50px;}
+.usercard .text h1{margin-top: 18px;}
+.usercard .text p{margin-top: 18px;}
+.usercard .text hr{margin-top: 20px;margin-bottom: 20px;margin-left: 0px;margin-right: 0px;}
+.usercard dl dt,
+.usercard dl dd{float: left;padding: 5px 0;}
+.usercard dl dt{width: 30%;font-weight: bold;}
+.usercard dl dd{width: 70%;color: #9da0a7;}
+.usercard > footer.media{background: #e6686a;text-align: center;}
+.usercard svg{ width: 40px; height: 40px; margin: 0 1px; vertical-align: top;}  
+.usercard > footer.media >a{ border: 1px ; display: inline-block; width: 40px; line-height: 40px; padding: 5px 0; border-radius: 50%;margin: 16px;}
+.usercard > footer.media >a:hover{background:  #cf5d5f;}
+body>main{margin-top: -340px;}
+body>main .downloadresume{border: 1px solid #cdcfd1;background: #ffffff;color: black;font-weight: bold;font-size: 14px;line-height: 16px;
+                                padding: 21px 55px;display: line block;border-radius: 2px;}
+body>main .downloadresume-wapper{padding-top: 50px;padding-bottom: 50px;transition: box-shadown 0.2s;text-align: center;}
+body>main .downloadresume:hover{box-shadow: 4px 6px 5px -1px rgba(98,122,145,0.75);}
+
+body >main .self-introduction{text-align: center;font-size: 18px;font-family: kai;line-height: 2;}
+section.skills{padding-top: 60px;margin-left: auto;margin-right: auto;width: 960px;}
+section.skills >h2{text-align: center;color: #3d4451;line-height: 1.2;font-size: 34px;font-weight: 600;}
+section.skills >ol{background: #ffffffff;box-shadow: 4px 6px 5px -1px rgba(98,122,145,0.75);list-style: none; padding: 42px 50px 42px; border-radius: 10px;}
+section.skills .Progressbar{border: 1px solid #e6686a;height: 5px;border-radius: 10px;}
+section.skills .Progressbar>.Progress{background: #e6686a;height: 100%;width: 70%; border-radius: 10px;}
+section.skills .Progressbar1{border: 1px solid #e6686a;height: 5px;border-radius: 10px;}
+section.skills .Progressbar1>.Progress1{background: #e6686a;height: 100%;width: 90%;border-radius: 10px; }
+section.skills .Progressbar2{border: 1px solid #e6686a;height: 5px;border-radius: 10px;}
+section.skills .Progressbar2>.Progress2{background: #e6686a;height: 100%;width: 75%; border-radius: 10px;}
+section.skills .Progressbar3{border: 1px solid #e6686a;height: 5px;border-radius: 10px;}
+section.skills .Progressbar3>.Progress3{background: #e6686a;height: 100%;width: 80%; border-radius: 10px;}
+section.skills .Progressbar4{border: 1px solid #e6686a;height: 5px;border-radius: 10px;}
+section.skills .Progressbar4>.Progress4{background: #e6686a;height: 100%;width: 95%; border-radius: 10px;}
+section.skills .Progressbar5{border: 1px solid #e6686a;height: 5px;border-radius: 10px;}
+section.skills .Progressbar5>.Progress5{background: #e6686a;height: 100%;width: 85%; border-radius: 10px;  }
+section.portfolio >h2{text-align: center;color: #3d4451;line-height: 1.2;font-size: 34px;font-weight: 600;}
+section.portfolio{padding-top: 60px;margin-left: auto;margin-right: auto;max-width: 960px;text-align: center;margin-bottom: 100px;} 
+section.portfolio >nav{text-align: center;display: inline-block;vertical-align: top;margin-top: 25px;}
+section.portfolio > nav >ol { margin:  0 auto;display: inline-block;vertical-align: top;}
+section.portfolio > nav >ol > li{float: left; margin-left: 40px;cursor: pointer;}
+section.portfolio > nav >ol > li:first-child{margin-left: 0;}
+section.portfolio >nav .bar{height: 5px;background: white;margin-top: 5px;margin-bottom: 100px;border-radius: 2px;}
+section.portfolio >nav .bar-inner{height: 100%;background: red;border-radius: 2px;transition: all 0.2s;}
+section.portfolio >nav .bar.state-1 .bar-inner{margin-left: o;width: 30px;}
+section.portfolio >nav .bar.state-2 .bar-inner{margin-left: 30%;width: 30px;}
+section.portfolio >nav .bar.state-3 .bar-inner{margin-left: 60%;width: 30px;}
+section.portfolio .jobs{
+
+    
+}
+section.portfolio .jobs > .big,
+section.portfolio .jobs > .small{
+    float: left;
+}
+
+
