@@ -32,7 +32,7 @@ hr{height: 0;border: none;border-top: 1px solid #dedede;}
 .topnavbar .logo{font-size: 24px;font-family:"Arial Black"}
 .topnavbar .logo .rs{margin-right: 4px;color: #e47275 ;}
 .topnavbar .logo .card{color: #A8AAAC;}
-.banner{height: 515px;background-size: cover;background-position: center center;background-image: url(../img/wallhaven-v9v3r5.jpg)}
+.banner{height: 515px;background-size: cover;background-position: center center;background-image: url(./img/wallhaven-v9v3r5.jpg)}
 .banner .mask{height: 515px;  background-color: rgba(0, 0, 0, 0.6);   }
 .usercard{border: 1px solid red;max-width: 960px;margin-left: auto;margin-right: auto;background-color: #ffffff;} 
 .usercard .welcome{background:#e6686a;color: white;padding: 4px 16px;line-height: 22px;position: relative;margin-bottom: 10px;}
