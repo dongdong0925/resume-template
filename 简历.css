@@ -74,24 +74,20 @@ section.skills .Progressbar4{border: 1px solid #e6686a;height: 5px;border-radius
 section.skills .Progressbar4>.Progress4{background: #e6686a;height: 100%;width: 95%; border-radius: 10px;}
 section.skills .Progressbar5{border: 1px solid #e6686a;height: 5px;border-radius: 10px;}
 section.skills .Progressbar5>.Progress5{background: #e6686a;height: 100%;width: 85%; border-radius: 10px;  }
-section.portfolio >h2{text-align: center;color: #3d4451;line-height: 1.2;font-size: 34px;font-weight: 600;}
-section.portfolio{padding-top: 60px;margin-left: auto;margin-right: auto;max-width: 960px;text-align: center;margin-bottom: 100px;} 
-section.portfolio >nav{text-align: center;display: inline-block;vertical-align: top;margin-top: 25px;}
-section.portfolio > nav >ol { margin:  0 auto;display: inline-block;vertical-align: top;}
-section.portfolio > nav >ol > li{float: left; margin-left: 40px;cursor: pointer;}
-section.portfolio > nav >ol > li:first-child{margin-left: 0;}
-section.portfolio >nav .bar{height: 5px;background: white;margin-top: 5px;margin-bottom: 100px;border-radius: 2px;}
-section.portfolio >nav .bar-inner{height: 100%;background: red;border-radius: 2px;transition: all 0.2s;}
-section.portfolio >nav .bar.state-1 .bar-inner{margin-left: o;width: 30px;}
-section.portfolio >nav .bar.state-2 .bar-inner{margin-left: 30%;width: 30px;}
-section.portfolio >nav .bar.state-3 .bar-inner{margin-left: 60%;width: 30px;}
-section.portfolio .jobs{
-
-    
+section.portfolio >h2{text-align: center;color: #3d4451;line-height: 1.2;font-size: 34px;font-weight: 600;margin-bottom: 20px;margin-top: 30px;} 
+.swiper-wrapper{
+    top: 10px;
+} 
+.swiper{
+    overflow: hidden;
+    position: relative;
+    width: 666px;
+    height: 444px;
+    margin: auto;
+    top: 10px;
 }
-section.portfolio .jobs > .big,
-section.portfolio .jobs > .small{
-    float: left;
+.kkkk{
+    position: absolute;
 }
 
 
